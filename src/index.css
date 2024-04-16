@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --whiteHex: #fff;
+    --yellowHex: #DBCA00;
+    --textHex: #333333;
+    --btnHex: #E16E4E;
+    --headerHex: #202020;
+    --subBGHex: #FFFAFF;
+    --lineHex: #FEF8F6;
+    --footerTextHex: #4D4D4D;
+    --faqAnswerHex: #666666;
+    --fontBitter: "Bitter", serif;
+    --fontMulish: "Mulish", sans-serif;
+    --fontOswald: "Oswald", sans-serif;
+}
+body, html {
+    position: relative;
+    overflow-x: hidden;
+    font-weight: 400;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img, svg {
+    cursor: pointer;
+}
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    width: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: var(--fontBitter);
+    background-color: var(--btnHex);
+    color: var(--whiteHex);
+}
+button:hover {
+    scale: 0.9;
+}
