@@ -4,10 +4,10 @@ import Button from '../button'
 
 // assets
 import logo from '@/assets/icons/logo.svg'
-import twitter from '@/assets/icons/twitter.svg'
+// import twitter from '@/assets/icons/twitter.svg'
 import instagram from '@/assets/icons/instagram.svg'
-import linkedIn from '@/assets/icons/linkedIn.svg'
-import facebook from '@/assets/icons/facebook.svg'
+// import linkedIn from '@/assets/icons/linkedIn.svg'
+// import facebook from '@/assets/icons/facebook.svg'
 
 const Footer: React.FC = () => {
   return (
@@ -35,10 +35,13 @@ const Footer: React.FC = () => {
             <p>Follow Us</p>
 
             <div>
-                <img src={twitter} alt='' />
-                <img src={instagram} alt='' />
+                <a target='_blank' href='https://www.instagram.com/lakshimi_international/?igsh=b3d3NWpsOHJxeW5s'>
+                    <img src={instagram} alt='' />
+                </a>
+
+                {/* <img src={twitter} alt='' />
                 <img src={linkedIn} alt='' />
-                <img src={facebook} alt='' />
+                <img src={facebook} alt='' /> */}
             </div>
         </div>
     </footer>
