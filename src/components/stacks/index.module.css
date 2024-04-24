@@ -12,6 +12,11 @@
 .stacks > div, .stacks img {
     width: 50%;
 }
+.stacks > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .stacks img {
     border-radius: 8px 8px 0px 0px;
 }
@@ -29,6 +34,7 @@
     font-family: var(--fontMulish);
     margin: 10px 0px 50px;
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     .stacks h4 {

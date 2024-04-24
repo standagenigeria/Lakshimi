@@ -25,7 +25,7 @@
     color: var(--textHex);
     font-family: var(--fontMulish);
 }
-.products  button {
+.products  a {
     position: absolute;
     bottom: -80px;
 }
@@ -53,7 +53,7 @@
         font-size: 16px;
         line-height: 28px;
     }
-    .products  button {
+    .products  a {
         position: relative;
         bottom: auto;
         margin-top: 20px;

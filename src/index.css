@@ -33,7 +33,7 @@ a {
 img, svg {
     cursor: pointer;
 }
-button {
+.button {
     border: none;
     outline: none;
     cursor: pointer;
@@ -45,7 +45,8 @@ button {
     font-family: var(--fontBitter);
     background-color: var(--btnHex);
     color: var(--whiteHex);
+    text-align: center;
 }
-button:hover {
+.button:hover {
     scale: 0.9;
 }

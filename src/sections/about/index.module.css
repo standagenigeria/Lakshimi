@@ -48,7 +48,7 @@
         font-size: 48px;
         line-height: 64px;
     }
-    .about_section button {
+    .about_section a {
         display: none;
     }
 }
